@@ -4,6 +4,10 @@ h1 {
   margin: -10px;
 }
 
+h2 {
+  margin: 0px;
+}
+
 body {
   padding-left: 50px;
   padding-right: 50px;
@@ -18,4 +22,20 @@ ul {
 
 li{
   display: inline;
+}
+
+.column1 {
+  width: 800px;
+  float: left;
+  background-color: #A1EBA1;
+  margin: -10px;
+  padding: 10px;
+}
+
+.column2 {
+  width: 500px;
+  float: left;
+  background-color: #8A8AE6;
+  margin: -10px;
+  padding: 10px;
 }
