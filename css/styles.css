@@ -1,42 +1,38 @@
 body {
   padding-left: 50px;
   padding-right: 50px;
+  margin: 0px;
 }
 
 h1 {
   background-color: silver;
-  border: 5px solid silver;
-  margin: 0px;
-}
-
-h2 {
+  padding: 5px;
   margin: 0px;
 }
 
 .navbar {
   background-color: pink;
   list-style-type: none;
-  margin: 0px;
-  padding: 1px;
+  padding: 5px;
 }
 
-li{
+.navbar li{
   display: inline;
 }
 
+h2 {
+  margin: 0px;
+}
 .column1 {
-  width: 800px;
+  width: 600px;
   float: left;
   background-color: #A1EBA1;
-  margin: 0px;
   padding: 10px;
 }
 
 .column2 {
-  width: 400px;
+  width: 300px;
   float: left;
   background-color: #8A8AE6;
-  margin: 0px;
   padding: 10px;
-  display: block;
 }
